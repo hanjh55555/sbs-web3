@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title></title>
+    <script>
+        //전개연산자로 전달한 값을 나머지 매개변수로 전달 받음
+    function pay( name, pay=9160, hours=40 ) {
+    console.log(`${name} 님의 급여`);
+    console.log(`시급 : ${pay} 원`);
+    console.log(`시간 : 주 ${hours} 시간`);
+    console.log(`급여 : ${pay * hours * 4} 원`);
+    console.log('');
+
+}
+    pay('로봇오찾기')
+    pay('로봇오찾기', 5000)
+    pay('로봇오찾기', 5000, 100)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
